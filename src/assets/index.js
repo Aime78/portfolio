@@ -30,6 +30,9 @@ import carrent from "./carrent.png";
 import decentraland from "./decentraland.png";
 import evogym from "./evogym.png";
 
+import twitter from "./twitter.png";
+import linkedin from "./linkedin.png";
+
 export {
   logo,
   backend,
@@ -59,4 +62,6 @@ export {
   carrent,
   decentraland,
   evogym,
+  twitter,
+  linkedin,
 };

@@ -6,9 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-// HoDDED9bw5uFW5NY5
-// template_xoisbzs
-// service_oqbr9bf
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
