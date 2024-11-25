@@ -19,6 +19,7 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
+import java from "./tech/java.png";
 import threejs from "./tech/next.png";
 
 import meta from "./company/meta.png";
@@ -29,6 +30,8 @@ import tesla from "./company/lasting-dynamics.png";
 import carrent from "./carrent.png";
 import decentraland from "./decentraland.png";
 import evogym from "./evogym.png";
+import ems from "./ems.png";
+import pathfinder from "./pathfinder.png";
 
 import twitter from "./twitter.png";
 import linkedin from "./linkedin.png";
@@ -45,6 +48,7 @@ export {
   css,
   docker,
   figma,
+  java,
   git,
   html,
   javascript,
@@ -60,6 +64,8 @@ export {
   starbucks,
   tesla,
   carrent,
+  ems,
+  pathfinder,
   decentraland,
   evogym,
   twitter,

@@ -18,10 +18,11 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
+  pathfinder,
   evogym,
-  decentraland,
+  java,
   threejs,
+  ems,
 } from "../assets";
 
 export const navLinks = [
@@ -41,7 +42,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full-stack Developer",
     icon: web,
   },
   {
@@ -59,14 +60,14 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
   {
     name: "JavaScript",
     icon: javascript,
@@ -100,6 +101,10 @@ const technologies = [
     icon: threejs,
   },
   {
+    name: "java",
+    icon: java,
+  },
+  {
     name: "git",
     icon: git,
   },
@@ -114,31 +119,32 @@ const technologies = [
 ];
 
 const experiences = [
+  // {
+  //   title: "Software Engineer",
+  //   company_name: "100Devs",
+  //   icon: starbucks,
+  //   iconBg: "#4f46e5",
+  //   date: "Mar 2022 - Nov 2022",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating closely with backend developers.",
+  //     "Transforming design concepts and wireframes into functional and visually captivating interfaces.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
   {
-    title: "Software Engineer",
-    company_name: "100Devs",
-    icon: starbucks,
-    iconBg: "#4f46e5",
-    date: "Mar 2022 - Nov 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating closely with backend developers.",
-      "Transforming design concepts and wireframes into functional and visually captivating interfaces.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Frontend Developer",
+    title: "Software Developer",
     company_name: "Lasting Dynamics",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Nov 2022 - Mar 2023",
+    date: "Feb 2022 - June 2023",
     points: [
-      "Developing and implementing user interface and experience for web and mobile applications with React and React Native, using industry best practices.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Testing and debugging to ensure seamless compatibility across various browsers and devices.",
-      "Optimizing frontend components for optimal performance and responsiveness.",
+      "Collaborated with designers to create and implement intuitive user interfaces of Ecommerce application using React.",
+      "Built RESTful APIs using JavaScript that served data to the Front-End and improved satisfaction of over 500,000 users.",
+      "Implemented and deployed APIs of internal tool on AWS reducing cost by 12%.",
+      "Conducted thorough testing of frontend and backend code with jest increase the overall source code quality.",
+      "Monitoring and fix issues of Ecommerce software with more than 1,000,000 users",
     ],
   },
   {
@@ -146,13 +152,12 @@ const experiences = [
     company_name: "Amalitech",
     icon: shopify,
     iconBg: "#E6DEDD",
-    date: "Mar 2023 - Present",
+    date: "July 2023 - Present",
     points: [
-      "Collaborate with designers to create and implement visually appealing user interfaces using React, Next, and Tailwind.",
-      "Work with server-side technologies such as Node, Python to build the logic and functionality behind web applications, includes handling data storage and retrieval.",
-      "Implement APIs for communication between the frontend and backend, and integrating with databases like PostgreSQL, MongoDB.",
-      "Ensure the security and performance of the entire application by implementing authentication and authorization mechanisms.",
-      "Conducting thorough testing, and optimizing code and database queries for efficiency.",
+      "Lead the design and development of enterprise software solution using microservices and AWS cloud technology.",
+      "Worked with product managers to create an asset management system (reduced average maintenance cost from $60/asset to $40/asset).",
+      "Optimized software code and ensure it is scalable, maintainable, lead to an increase in process efficiency by 18%.",
+      "Perform code reviews in Python to ensure code quality and adherence to coding standards.",
       "Collaborate with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
     ],
   },
@@ -187,9 +192,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "EMS",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "The Employee Management System (EMS) streamlines employee administration with features like information management, attendance tracking, payroll, task assignment, and progress tracking for efficient organizational management.",
     tags: [
       {
         name: "nextjs",
@@ -204,8 +209,30 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/aime78/car-rental",
+    image: ems,
+    source_code_link: "https://github.com/aime78/ems",
+  },
+  {
+    name: "Path Finder visualizer",
+    description:
+      "A Pathfinder Visualizer interactive tool that demonstrates pathfinding algorithms like Dijkstra's, A*, Breath first search, and Depth first search. It lets users customize start, end, and obstacle points to explore efficient pathfinding solutions dynamically.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      // {
+      //   name: "lens protocol",
+      //   color: "pink-text-gradient",
+      // },
+    ],
+    image: pathfinder,
+    source_code_link:
+      "https://github.com/aime78/pathfinder-visualizer",
   },
   {
     name: "Gym website",
@@ -227,28 +254,6 @@ const projects = [
     ],
     image: evogym,
     source_code_link: "https://github.com/aime78/gym-website",
-  },
-  {
-    name: "Decentralized social media application",
-    description:
-      "A social media platform that allows users to connect with other users, and follow other users.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "chakra ui",
-        color: "green-text-gradient",
-      },
-      {
-        name: "lens protocol",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: decentraland,
-    source_code_link:
-      "https://github.com/aime78/decentralized-social-media-app",
   },
 ];
 
